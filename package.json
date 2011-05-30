@@ -1,0 +1,10 @@
+{
+    "name": "queue-light"
+  , "version": "1.0.0"
+  , "description": "A lighter version of node.js event queue module."
+  , "keywords": [ "queue", "event-queue", "queue-light" ]
+  , "author": "dreamerslab <ben@dreamerslab.com>"
+  , "dependencies": {}
+  , "main": "index"
+  , "engines": { "node": "0.4.x" }
+}
