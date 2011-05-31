@@ -8,7 +8,7 @@ A lighter version of node.js event queue module.
 
 Javascript is an [event-driven](http://bit.ly/ejhOOR) programming language. Therefore your code is easy to have nested callbacks. This make your code less flexible.
 
-With Queue you can add functions in a queue `outside` the function scope; execute the queued functions later or `in different files`. It makes your code easily to be more modularized. 
+With Queue-light you can push functions to a queue `outside` the function scope; execute the queued functions later even `in different files`. It makes your code easily to be more modularized.
 
 Queue-light is a lighter version of [Queue](https://github.com/dreamerslab/node.queue). It runs faster without namespace support.
 
@@ -28,17 +28,17 @@ node 1.4.x
 
 ## Usage
 
-> require module
+> Require module.
 
-    var queue = require( 'queue-light' );
+    var queue = require( 'queue' );
 
-> push function to a queue
+> Push a function to a queue to be called later.
 
     queue.add( 'queue_name', function( arg1, arg2, arg3 ){
       // do something here
     });
 
-> remove function from a queue
+> Remove a function from a queue.
 
     var some_function = function( arg1, arg2, arg3 ){
       // some code
@@ -46,19 +46,19 @@ node 1.4.x
 
     queue.remove( 'queue_name', 'some_function' );
 
-> execute queue functions
+> Calling functions in a queue.
 
     queue.execute( 'queue_name', [ arg1, arg2, arg3 ]);
     // or
     queue.execute( 'queue_name', arg );
 
-> execute queue functions and remove it from a queue after execute it
+> Calling functions in a queue and remove them after calling.
 
     queue.execute_and_clear( 'queue_name', [ arg1, arg2, arg3 ]);
     // or
     queue.execute_and_clear( 'queue_name', arg );
 
-> clear queue
+> Delete a queue.
 
     queue.clear( 'queue_name' );
 
