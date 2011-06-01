@@ -47,16 +47,14 @@ node 1.4.x
     queue.remove( 'queue_name', 'some_function' );
 
 > Calling functions in a queue.
-
-    queue.execute( 'queue_name', [ arg1, arg2, arg3 ]);
-    // or
-    queue.execute( 'queue_name', arg );
+    
+    // You can pass as many arguments as you wish
+    queue.execute( 'queue_name', arg1, arg2, arg3 ... );
 
 > Calling functions in a queue and remove them after calling.
-
-    queue.execute_and_clear( 'queue_name', [ arg1, arg2, arg3 ]);
-    // or
-    queue.execute_and_clear( 'queue_name', arg );
+    
+    // You can pass as many arguments as you wish
+    queue.execute_and_clear( 'queue_name', arg1, arg2, arg3 ... );
 
 > Delete a queue.
 
