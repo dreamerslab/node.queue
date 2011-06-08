@@ -16,7 +16,7 @@ Queue-light is a lighter version of [Queue](https://github.com/dreamerslab/node.
 
 ## Requires
 
-node 1.4.x
+  - node >= 0.4.x
 
 
 
