@@ -1,3 +1,9 @@
+## 1.1.2 / 2011-06-16
+
+  - Remove isArray
+
+
+
 ## 1.1.1 / 2011-06-08
 
   - Update node version
