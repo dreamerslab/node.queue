@@ -1,3 +1,9 @@
+## 1.1.3 / 2011-07-05
+
+  - Syntax tuning
+
+
+
 ## 1.1.2 / 2011-06-16
 
   - Remove isArray
