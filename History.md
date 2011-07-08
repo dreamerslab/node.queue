@@ -1,3 +1,10 @@
+## 1.1.4 / 2011-07-08
+
+  - Add getter method
+  - Change package name to Queue
+
+
+
 ## 1.1.3 / 2011-07-05
 
   - Syntax tuning

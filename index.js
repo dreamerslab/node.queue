@@ -1,1 +1,1 @@
-module.exports = require('./lib/queue-light');
+module.exports = require('./lib/queue');

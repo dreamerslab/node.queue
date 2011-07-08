@@ -1,6 +1,6 @@
-# Queue-light
+# Queue
 
-A lighter version of node.js event queue module.
+A node.js event queue module.
 
 
 
@@ -8,9 +8,9 @@ A lighter version of node.js event queue module.
 
 Javascript is an [event-driven](http://bit.ly/ejhOOR) programming language. Therefore your code is easy to have nested callbacks. This make your code less flexible.
 
-With Queue-light you can push functions to a queue `outside` the function scope; execute the queued functions later even `in different files`. It makes your code easily to be more modularized.
+With Queue you can push functions to a queue `outside` the function scope; execute the queued functions later even `in different files`. It makes your code easily to be more modularized.
 
-Queue-light is a lighter version of [Queue](https://github.com/dreamerslab/node.queue). It runs faster without namespace support.
+Queue is a lighter version of [Queue](https://github.com/dreamerslab/node.queue). It runs faster without namespace support.
 
 
 
@@ -22,7 +22,7 @@ Queue-light is a lighter version of [Queue](https://github.com/dreamerslab/node.
 
 ## Installation
 
-    npm install queue-light
+    npm install queue
 
 
 
@@ -37,6 +37,10 @@ Queue-light is a lighter version of [Queue](https://github.com/dreamerslab/node.
     queue.add( 'queue_name', function( arg1, arg2, arg3 ){
       // do something here
     });
+
+> Get a queue.
+
+    queue.get( 'queue_name' );
 
 > Remove a function from a queue.
 
