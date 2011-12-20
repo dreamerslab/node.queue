@@ -10,8 +10,6 @@ Javascript is an [event-driven](http://bit.ly/ejhOOR) programming language. Ther
 
 With Queue you can push functions to a queue `outside` the function scope; execute the queued functions later even `in different files`. It makes your code easily to be more modularized.
 
-Queue is a lighter version of [Queue](https://github.com/dreamerslab/node.queue). It runs faster without namespace support.
-
 
 
 ## Requires
