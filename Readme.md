@@ -4,6 +4,12 @@ A node.js event queue module.
 
 
 
+## *****Deprecated*****
+
+I wrote this package before I really started to learn node.js. This package is exactly the same as the core module `EventEmitter`. So just ignore this one.
+
+
+
 ## Description
 
 Javascript is an [event-driven](http://bit.ly/ejhOOR) programming language. Therefore your code is easy to have nested callbacks. This make your code less flexible.
