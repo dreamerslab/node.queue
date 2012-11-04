@@ -6,7 +6,7 @@ A node.js event queue module.
 
 ## *****Deprecated*****
 
-I wrote this package before I really started to learn node.js. This package is exactly the same as the core module `EventEmitter`. So just ignore this one.
+I wrote this package before I really started to learn node.js. This package is exactly the same as the core module `EventEmitter`. So just ignore this one. It has been removed from npm packages.
 
 
 
@@ -55,12 +55,12 @@ With Queue you can push functions to a queue `outside` the function scope; execu
     queue.remove( 'queue_name', 'some_function' );
 
 > Calling functions in a queue.
-    
+
     // You can pass as many arguments as you wish
     queue.execute( 'queue_name', arg1, arg2, arg3 ... );
 
 > Calling functions in a queue and remove them after calling.
-    
+
     // You can pass as many arguments as you wish
     queue.execute_and_clear( 'queue_name', arg1, arg2, arg3 ... );
 
@@ -70,7 +70,7 @@ With Queue you can push functions to a queue `outside` the function scope; execu
 
 
 
-## License 
+## License
 
 (The MIT License)
 
